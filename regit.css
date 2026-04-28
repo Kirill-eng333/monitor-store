@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #6a359c 0%, #b589d6 100%);
+    height: 100vh;
+}
+
+/* Центрирование формы */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Кнопка "Домой" */
+.resit-item {
+    display: inline-block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: bold;
+
+    background: linear-gradient(90deg, #a18cd1 0%, #fbc2eb 100%);
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* Форма */
+.register-form {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    width: 320px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+    text-align: center;
+}
+
+/* Заголовок */
+.register-form h2 {
+    margin-bottom: 20px;
+}
+
+/* Поля ввода */
+.register-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+/* Эффект фокуса */
+.register-form input:focus {
+    border-color: #6a359c;
+    outline: none;
+}
+
+/* Кнопка */
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    background: #1900ff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: 0.3s;
+}
+
+.register-form button:hover {
+    background: #cc00b1;
+}
+
+/* Текст под формой */
+.register-form p {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+/* Ссылки */
+.register-form a {
+    color: rgb(6, 9, 177);
+    text-decoration: none;
+}
+
+/* Сообщение об ошибке / успехе */
+#message {
+    margin-top: 10px;
+    font-size: 14px;
+    color: red;
+}
+
+.register-form a {
+    display: inline-block;
+    margin-top: 10px;
+    transition: 0.2s;
+}
+
+.register-form a:hover {
+    opacity: 0.7;
+}

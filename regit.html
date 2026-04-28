@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Регистрация</title>
+    <link rel="stylesheet" href="./regit.css">
+</head>
+<body>
+
+<div class="container">
+   <form id="regForm" class="register-form">
+    <a class="resit-item" href="./index.html">Домой</a>
+    <h2>Регистрация</h2>
+
+    <input type="text" id="username" placeholder="Имя" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="password" id="password" placeholder="Пароль" required>
+    <input type="password" id="confirmPassword" placeholder="Повторите пароль" required>
+
+    <button type="submit">Зарегистрироваться</button>
+
+    <p id="message"></p>
+
+    <p>Уже есть аккаунт? <a href="login.html">Войти</a></p>
+</form>
+</div>
+
+<script src="scipt.js"></script>
+</body>
+</html>
